@@ -19,6 +19,7 @@
 
 ## Important
 -  When trying to host your own project use Python Anywhere or Aptible
+-  When using a virtual environment make sure to activate and deactive your environment, creating one helps avoid conflicts with the global interpreter
 
 ## Technologies Used
 - HTML - version 5
