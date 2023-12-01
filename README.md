@@ -53,7 +53,9 @@ See the appropriate guide for your environment and operating system.
 >
   b. Boostrap Installation
 >
-  Just add the link provided by Boostrap in your header located in your HTML file (this could also be your base file).
+  Add the link provided by Boostrap in your header located in your HTML file (this could also be your base file).
+  >
+  `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`
   >
   Make sure to use version 5 as this is the latest version
 >
