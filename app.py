@@ -1,4 +1,3 @@
-# Must run .\.env\Scripts\activate inside of the codezen folder
 """Import Flask from Flask Lib"""
 from flask import Flask, render_template
 
@@ -30,3 +29,4 @@ def about_page():
 
 if __name__ == "__main__":
     app.run(debug=False)
+
