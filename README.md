@@ -57,7 +57,7 @@ See the appropriate guide for your environment and operating system.
   >
   Make sure to use version 5 as this is the latest version
 >
-  c. Jinja Installation
+  c. Jinja/HTML/CSS Installation
 >
   There is no installation needed for Jinja, HTML, CSS.
 >
