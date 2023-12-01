@@ -1,12 +1,13 @@
 # CodeZen
 > Platform to help educators organize their materials
-> Live demo [_here_](https://pokemon-store-eight.vercel.app/learn.html). <!-- If you have the project hosted somewhere, include the link here. -->
+> 
+> No live demo yet. <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Setup](#setup)
+* [Installation](#installation)
 * [Usage](#usage)
 * [Project Status](#project-status)
 <!-- * [License](#license) -->
@@ -22,23 +23,51 @@
 -  When using a virtual environment make sure to activate and deactive your environment, creating one helps avoid conflicts with the global interpreter
 
 ## Technologies Used
-- HTML - version 5
-- CSS - version 3
-- Bootstrap - version 5
-- Flask
-- Jinja
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+- ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+- ![Jinja](https://img.shields.io/badge/jinja-white.svg?style=for-the-badge&logo=jinja&logoColor=black)
 
 ## Features
 List of features here:
 - Users can navigate through mulitple web pages
+- Users can sign up ( In-Progress)
+- Users can create an account ( In-Progress)
 
-## Setup
-The requirements for this project are simple and do not require much setup. You will need a code editor of your choice. I use VSCode because Flask is supported, which makes setup easier. There are no dependencies, only additional plugins if you would like to set them up. If you are unsure, then I would say Prettier+ and a Python linter are a good start. You can get all the plugins in VSCode in the side menu, it looks like blocks. To sum everything up, all you need is a code editor and to see your website run python or python3 filename.py.
+## Installation
+See the appropriate guide for your environment and operating system.
+- Flask or older Flask version
+- Other frameworks that are not Flask, Bootstrap, Jinja2
+>
+  a. Flask Installation
+>
+  Add Flask to your global or virutal enivorment:
+  For macOS:
+  `pip3 install flask`
+  For Windows:
+  `pip install flask`
+- Make sure that Flask is the current version
+- If using the virtual enivorment make sure to navigate to your folder that you create your env folder and activated your env
+- You can activate your enivorment by typing `source\bin\activate\` and for Windows `.\env\Scripts\activate`
+>
+  b. Boostrap Installation
+>
+  Just add the link provided by Boostrap in your header located in your HTML file (this could also be your base file).
+  >
+  Make sure to use version 5 as this is the latest version
+>
+  c. Jinja Installation
+>
+  There is no installation needed for Jinja, HTML, CSS.
+>
+  HTML and CSS is built into VSCode, while Jinja is Flask's official templating engine.
 
 ## Usage
 How does one go about using it?
 
 `User navigates onto the home page and can click any buttons or use the navigation links in the header(top of the page) or footer(bottom of the page).`
+>
 `User can also view the website on mulitple devices such as desktop or mobile.`
 
 ## Project Status
