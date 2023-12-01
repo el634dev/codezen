@@ -1,0 +1,96 @@
+:root {
+    /* Tea Green */
+    --heading-background: #BFD7B5;
+    /* Jordy Blue*/
+    --blue-jordy: #8FB8ED;
+    /*Mountbatten Pink*/
+    --pink-color: #826C7F;
+    /* Pale Pink */
+    --pale-pink: #F1E3F3;
+    /* Prussian */
+    --prussian: #1C3041;
+    --heading-size: 1.10rem;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--pale-pink);
+}
+
+/***************************/
+/* Navbar Styling */
+.navbar {
+    font-size: var(--heading-size);
+    color: #000;
+    border-top-left-radius: 0%;
+}
+
+.nav-link {
+    color: #000;
+    font-size: 1.15rem;
+}
+
+/***************************/
+/* Jumbotron Styling */
+.jumbotron {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/85bdc7178466007.Y3JvcCwyNDgwLDE5MzksMCw0NDg.png');
+	background-position: center;
+	background-size:cover;
+    object-fit: cover;
+	background-repeat:no-repeat;
+	border-radius: 4px;
+}
+
+.subjumbo {
+    backdrop-filter: blur(3px) saturate(102%);
+	-webkit-backdrop-filter: blur(2px) saturate(102%);
+    object-fit: cover;
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+/***************************/
+/* Button Styling */
+.btn {
+    background-color: var(--blue-color);
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1em;
+    padding: 0.5rem;
+}
+
+/***************************/
+/* Sign Up Form Styling */
+/* .form-control { */
+    /* margin-left: 200px; */
+/* } */
+
+/***************************/
+/* Footer Styling */
+.footer {
+    background-color: var(--heading-background);
+}
+
+.footer-links-list ul {
+    padding-left: 0; 
+}
+					
+.footer-links-list ul li {
+    margin-bottom: 15px; 
+    list-style-type: none;
+    padding-left: 0; 
+}
+
+.footer-links-list a {
+    text-decoration:none; 
+    color:var(--bs-body-color);
+}
+
+#background-col {
+    min-height: 45vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1491926626787-62db157af940?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;h=768&amp;fit=crop&amp;ixid=eyJhcHBfaWQiOjM3ODR9');
+}
