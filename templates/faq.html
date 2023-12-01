@@ -4,28 +4,39 @@
 {% block title %} {% endblock %}
 
 {% block content %}
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light">
+   <button class="navbar-toggler" type="button" 
+      data-toggle="collapse" data-target="#navbarTogglerDemo03" 
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"
+   >
       <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="{{ url_for('landing_page') }}">CODEZEN</a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active text-center">
-          <a class="nav-link" href="{{ url_for('features_page') }}">Features <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('about_page')}}">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="{{ url_for('faq_page') }}">FAQ</a>
-        </li>
+   </button>
+   <a class="navbar-brand" href="{{ url_for('landing_page') }}">COURSEZEN</a>
+   <!------------>
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-auto">
+         <li class="nav-item active text-center">
+            <a class="nav-link" href="{{ url_for('features_page') }}">
+               Features 
+               <span class="sr-only">
+                  (current)
+               </span>
+            </a>
+         </li>
+         <!-------------->
+         <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('about_page') }}">About</a>
+         </li>
+         <!---------------->
+         <li class="nav-item">
+            <a class="nav-link disabled" href="{{ url_for('faq_page') }}">FAQ</a>
+         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
+         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign Up</button>
       </form>
-    </div>
-  </nav>  
+   </div>
+</nav>  
 <!-------End of Nav---------->
 <!--Start of FAQ-->
 <div class="container py-5 container-fluid">
@@ -38,7 +49,7 @@
           </div>
           <div class="lc-block text-center">
              <div editable="rich">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu<br>fugiat nulla pariatur excepteur sint occaecat.&nbsp;<br>Static Faq<br>
+                Have questions, you are in the right location.<br>See our most frequently asked questions.&nbsp;<br><br>
              </div>
           </div>
        </div>
@@ -47,40 +58,52 @@
        <div class="col-md-6">
           <div class="lc-block mb-5">
              <div editable="rich">
-                <p class="h4">Excepteur sint occaecat cupidatat non? </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p class="h4">What is Jira? </p>
+                <p>
+                  Jira is used by teams all over the glboal to stay informed. Jira helps you see what needs to get done and show analytics on what is not working. 
+               </p>
              </div>
           </div>
           <div class="lc-block mb-5">
              <div editable="rich">
-                <p class="h4">Duis aute irure dolor in?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p class="h4">What is Trello?</p>
+                <p>
+                  Using a Trello Board helps keep track of important deadlines, exams and assessments. Send notications to students with ease.
+               </p>
              </div>
           </div>
           <div class="lc-block mb-5">
              <div editable="rich">
-                <p class="h4">Consequuntur magni dolores eos qui?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p class="h4">What happens to my data?</p>
+                <p>
+                  Your data that you upload is secure and you can delete at any time. We never share your information, sell your information and use cookies. 
+               </p>
              </div>
           </div>
        </div>
        <div class="col-md-6">
           <div class="lc-block mb-5">
              <div editable="rich">
-                <p class="h4">Duis aute irure dolor in?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p class="h4">How much is CourseZen?</p>
+                <p>
+                  CourseZen is free under 100 students. If you are over 100 students then it's only $10USD per month. 
+                </p>
              </div>
           </div>
           <div class="lc-block mb-5">
              <div editable="rich">
-                <p class="h4">Consequuntur magni dolores eos qui?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p class="h4">What is CourseZen?</p>
+                <p>
+                  CourseZen is a platform that is similar to DropBox and GitHub but for educators. CourseZen helps keep your course materials in one secure location. 
+               </p>
              </div>
           </div>
           <div class="lc-block mb-5">
              <div editable="rich">
-                <p class="h4">Excepteur sint occaecat cupidatat non? </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p class="h4">Can I cancel if I sign up for the Business plan?</p>
+                <p>
+                  Yes, you can cancel at anytime.
+                </p>
              </div>
           </div>
        </div>
@@ -88,75 +111,73 @@
  </div>  
 <!--End of FAQ-->
 <!--Footer-->    
-<section class="container-fluid">
-	<div class="container">
-		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-			<div class="col mb-3">
-				<div class="lc-block">
-					<div editable="rich">
-						<h2>CourseZen</h2>
-						<p class="text-muted">Privacy-Terms</p>
-						<p class="text-muted">© 2023 CourseZen</p>
+<footer>
+	<section class="container-fluid">
+		<div class="container-fluid">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+				<div class="col mb-3">
+					<div class="lc-block">
+						<div editable="rich">
+							<h2>CourseZen</h2>
+							<p class="text-muted">Privacy-Terms</p>
+							<p class="text-muted">© 2023 CourseZen</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<!------------------------->
-			<div class="col offset-md-2 mb-3">
-				<div class="lc-block mb-4">
-					<div editable="rich">
-						<h4>Features</h4>
+				<!------------------------->
+				<div class="col offset-md-2 mb-3">
+					<div class="lc-block mb-4">
+						<div editable="rich">
+							<h4>Features</h4>
+						</div>
+					</div>
+					<div class="lc-block small"> 
+						<div editable="rich" class="footer-links-list">
+							<ul>
+								<li><a href="https://trello.com/home">Trello</a> </li>
+								<li><a href="https://www.atlassian.com/software/jira/work-management">Jira</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
-				<div class="lc-block small"> 
-					<style>
-					.footer-links-list ul { padding-left:0 }
-					.footer-links-list ul li {margin-bottom:15px; list-style-type:none;padding-left:0 }
-					.footer-links-list a {text-decoration:none; color:var(--bs-body-color);}
-					</style>
-					<div editable="rich" class="footer-links-list">
-						<ul>
-							<li><a href="#">Trello</a> </li>
-							<li><a href="#">Jira</a></li>
-						</ul>
+				<!-------------------->
+				<div class="col mb-3">
+					<div class="lc-block mb-4">
+						<div editable="rich">
+							<h4>About us</h4>
+						</div>
+					</div>
+					<div class="lc-block small">
+						<div editable="rich" class="footer-links-list">
+							<ul>
+								<li><a href="/about">Our Story</a> </li>
+								<li><a href="#">Work with us</a></li>
+								<li><a href="#">Blog</a> </li>
+								<li><a href="#">Careers</a> </li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col mb-3">
-				<div class="lc-block mb-4">
-					<div editable="rich">
-						<h4>About us</h4>
+				<!------------------>
+				<div class="col mb-3">
+					<div class="lc-block mb-4">
+						<div editable="rich">
+							<h4>Resources</h4>
+						</div>
 					</div>
-				</div>
-				<div class="lc-block small">
-					<div editable="rich" class="footer-links-list">
-						<ul>
-							<li><a href="#">Our Story</a> </li>
-							<li><a href="#">Work with us</a></li>
-							<li><a href="#">Blog</a> </li>
-							<li><a href="#">Careers</a> </li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col mb-3">
-				<div class="lc-block mb-4">
-					<div editable="rich">
-						<h4>Resources</h4>
-					</div>
-				</div>
-				<div class="lc-block small">
-					<div editable="rich" class="footer-links-list">
-
-						<ul>
-							<li><a href="{{ url_for('faq_page') }}">FAQ</a></li>
-							<li><a href="#">Contact Us</a></li>
-						</ul>
-
+					<!-------------------->
+					<div class="lc-block small">
+						<div editable="rich" class="footer-links-list">
+							<ul>
+								<li><a href="{{ url_for('faq_page') }}">FAQ</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+</footer>
 <!--End of Footer-->
 {% endblock %}
