@@ -4,16 +4,24 @@
 {% block title %} {% endblock %}
 
 {% block content %}
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" 
+			data-toggle="collapse" data-target="#navbarTogglerDemo03" 
+			aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"
+		>
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="{{ url_for('landing_page') }}">CODEZEN</a>
-<!------------>
+    <a class="navbar-brand" href="{{ url_for('landing_page') }}">COURSEZEN</a>
+    <!------------>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-auto">
         <li class="nav-item active text-center">
-          <a class="nav-link" href="{{ url_for('features_page') }}">Features <span class="sr-only">(current)</span></a>
+          	<a class="nav-link" href="{{ url_for('features_page') }}">
+				Features 
+				<span class="sr-only">
+					(current)
+				</span>
+			</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ url_for('about_page') }}">About</a>
@@ -32,7 +40,8 @@
   <section class="container col-xxl-8 px-4 py-5 container-fluid">
 		<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 			<div class="col-10 col-sm-8 col-lg-6">
-				<img src="https://orion180.com/wp-content/uploads/2022/04/training-webinars-1024x683.jpg" class="d-block mx-lg-auto img-fluid" alt="" loading="lazy">
+				<img src="https://orion180.com/wp-content/uploads/2022/04/training-webinars-1024x683.jpg" 
+					 class="d-block mx-lg-auto img-fluid rounded" alt="" loading="lazy">
 			</div>
 			<div class="col-lg-6">
 				<div class="lc-block mb-3">
@@ -55,24 +64,11 @@
 	</section>
 <!--End of Hero-->
 <!--Jumbotron-->
-    <div lc-helper="background" class="container-fluid py-5 mb-4 d-flex justify-content-center" 
-		style="  
-		background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1124&amp;q=100');
-		background-position: center;
-		background-size:cover;
-		background-repeat:no-repeat;
-		border-radius: 4px;
-		"
-	>
-		<div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12" style=" backdrop-filter: blur(6px) saturate(102%);
-			-webkit-backdrop-filter: blur(6px) saturate(102%);
-			background-color: rgba(255, 255, 255, 0.45);
-			border-radius: 12px;
-			border: 1px solid rgba(209, 213, 219, 0.3);"
-		>
+    <div lc-helper="background" class="container-fluid py-5 mb-4 d-flex justify-content-center jumbotron">
+		<div class="p-5 mb-4 lc-block col-xxl-7 col-lg-8 col-12 subjumbo">
 		<div class="lc-block">
 			<div editable="rich">
-				<h2 class="fw-bolder display-4">Top 10 Tools for Folks in Education</h2>
+				<h2 class="fw-bolder display-4 ml-3">Top 10 Tools for Folks in Education</h2>
 			</div>
 		</div>
 		<div class="lc-block col-md-8">
@@ -82,7 +78,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="lc-block">
+		<div class="lc-block ml-3">
 			<a class="btn btn-dark" href="#" role="button">Read More</a>
 		</div>
 	</div>
@@ -91,21 +87,21 @@
 <!--Blog Cards -->
   <div class="row">
 	<div class="col-sm-6">
-	  <div class="card">
+	  <div class="card ml-2">
 		<div class="card-body">
 		  <h5 class="card-title">Keys to writing effective learning content</h5>
-		  <h6 class="card-subtitle mb-2 text-muted">By ZenDev</h6>
-		  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		  <h6 class="card-subtitle mb-2 text-muted">By Skywalker</h6>
+		  <p class="card-text">Write effective content that engages learners.</p>
 		  <a href="#" class="btn btn-primary">Read More</a>
 		</div>
 	  </div>
 	</div>
 	<div class="col-sm-6">
-	  <div class="card">
+	  <div class="card text-right mr-2">
 		<div class="card-body">
 		  <h5 class="card-title">Writing Awesome Learning Plans</h5>
 		  <h6 class="card-subtitle mb-2 text-muted">By ZenDev</h6>
-		  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+		  <p class="card-text">Write awesome learning plans that leave students wanting to learn more.</p>
 		  <a href="#" class="btn btn-primary">Read More</a>
 		</div>
 	  </div>
@@ -118,7 +114,7 @@
 		<div class="col-md-12 mt-5">
 			<div class="lc-block">
 				<div editable="rich">
-					<h2>Dozen of world’s leading companies trust us</h2>
+					<h2>Dozen of the world’s leading companies trust us</h2>
 				</div>
 			</div>
 		</div>
@@ -126,32 +122,44 @@
 	<div class="row row-cols-2 row-cols-sm-3 row-cols-xl-6 text-center text-xl-start align-items-center g-4">
 		<div class="col py-3">
 			<div class="lc-block">
-				<img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/world-logo/samsung.svg" width="128" height="128" loading="lazy">
+				<img class="img-fluid" 
+					src="https://cdn.livecanvas.com/media/logos/world-logo/samsung.svg" 
+					width="128" height="128" loading="lazy">
 			</div>
 		</div>
 		<div class="col py-3">
 			<div class="lc-block">
-				<img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/world-logo/mailchimp.svg" width="128" height="128" loading="lazy">
+				<img class="img-fluid" 
+					src="https://cdn.livecanvas.com/media/logos/world-logo/mailchimp.svg" 
+					width="128" height="128" loading="lazy">
 			</div>
 		</div>
 		<div class="col py-3">
 			<div class="lc-block">
-				<img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/world-logo/google.svg" width="128" height="128" loading="lazy">
+				<img class="img-fluid" 
+					src="https://cdn.livecanvas.com/media/logos/world-logo/google.svg" 
+					width="128" height="128" loading="lazy">
 			</div>
 		</div>
 		<div class="col py-3">
 			<div class="lc-block">
-				<img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/world-logo/netflix.svg" width="128" height="128" loading="lazy">
+				<img class="img-fluid" 
+					 src="https://cdn.livecanvas.com/media/logos/world-logo/netflix.svg" 
+					 width="128" height="128" loading="lazy">
 			</div>
 		</div>
 		<div class="col py-3">
 			<div class="lc-block">
-				<img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/world-logo/cocacola.svg" width="128" height="128" loading="lazy">
+				<img class="img-fluid" 
+					 src="https://cdn.livecanvas.com/media/logos/world-logo/cocacola.svg" 
+					 width="128" height="128" loading="lazy">
 			</div>
 		</div>
 		<div class="col py-3">
 			<div class="lc-block">
-				<img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/world-logo/adobe.svg" width="128" height="128" loading="lazy">
+				<img class="img-fluid" 
+					src="https://cdn.livecanvas.com/media/logos/world-logo/adobe.svg" 
+					width="128" height="128" loading="lazy">
 			</div>
 		</div>
 	</div>
@@ -160,20 +168,22 @@
 <!--Sign Up Form-->
 <form>
 	<div class="form-group mt-4">
-	  <h1 class="text-center mt-4">Sign Up Today</h1>
-	  <label for="exampleInputEmail1">Email address</label>
-	  <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-	  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+	  <h1 class="text-center mt-4 ml-5">Sign Up Today</h1>
+	  <label for="exampleInputEmail1" class="ml-5">Email address</label>
+	  <input type="email" class="form-control w-75 ml-5 offset-5" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+	  <small id="emailHelp" class="form-text text-muted ml-5">We'll never share your email with anyone else.</small>
 	</div>
+	<!------------------>
 	<div class="form-group">
-	  <label for="exampleInputPassword1">Name</label>
-	  <input type="text" class="form-control w-75" id="exampleInputPassword1" placeholder="Name">
+	  <label for="exampleInputPassword1" class="ml-5">Name</label>
+	  <input type="text" class="form-control w-75 ml-5" id="exampleInputPassword1" placeholder="Name">
 	</div>
+	<!------------------>
 	<div class="form-check">
-	  <input type="checkbox" class="form-check-input mb-1" id="exampleCheck1">
-	  <label class="form-check-label" for="exampleCheck1">Not a robot</label>
+	  <input type="checkbox" class="form-check-input mb-1 ml-4" id="exampleCheck1">
+	  <label class="form-check-label ml-5" for="exampleCheck1">Not a robot</label>
 	</div>
-	<button type="submit" class="btn btn-primary mt-4">Submit</button>
+	<button type="submit" class="btn btn-primary mt-4 ml-5">Submit</button>
   </form>
 <!--End of Sign Up-->
 <!--Pricing-->
@@ -181,7 +191,9 @@
 	<div class="row">
 		<div class="col-md-12 text-center">
 				<h2 editable="inline" class="display-2 mb-3"><b>Pricing</b></h2>
-				<p editable="inline">So this is great but what about pricing.<br> free under 100 students and only $10USD for over 100.</p>
+				<p editable="inline">
+					So this is great but what about pricing.<br> Free under 100 students and only $10USD for over 100 students.
+				</p>
 		</div>
 	</div>
 	<div class="row mt-4">
@@ -238,10 +250,10 @@
 			<div class="lc-block mb-2">
 				<div editable="rich">
 					<h2 class="display-3 fw-bolder">Reach us</h2>
-					<p>Need help setting up<br>&nbsp;or confused on a something, reach out.&nbsp;</p>
+					<p>Need help setting up<br>&nbsp;or confused on something, reach out.&nbsp;</p>
 				</div>
 			</div>
-			<div class="lc-block border-top col-md-6 offset-md-4">
+			<div class="lc-block border-top col-md-6 offset-md-3">
 				<div editable="rich">
 					<h2 class="fw-bolder"><br></h2>
 				</div>
@@ -263,75 +275,73 @@
 </div> 
 <!--End of Reach Out Section-->
 <!--Footer-->    
-<section class="container-fluid">
-	<div class="container">
-		<div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-			<div class="col mb-3">
-				<div class="lc-block">
-					<div editable="rich">
-						<h2>CourseZen</h2>
-						<p class="text-muted">Privacy-Terms</p>
-						<p class="text-muted">© 2023 CourseZen</p>
+<footer>
+	<section class="container-fluid">
+		<div class="container-fluid">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+				<div class="col mb-3">
+					<div class="lc-block">
+						<div editable="rich">
+							<h2>CourseZen</h2>
+							<p class="text-muted">Privacy-Terms</p>
+							<p class="text-muted">© 2023 CourseZen</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<!------------------------->
-			<div class="col offset-md-2 mb-3">
-				<div class="lc-block mb-4">
-					<div editable="rich">
-						<h4>Features</h4>
+				<!------------------------->
+				<div class="col offset-md-2 mb-3">
+					<div class="lc-block mb-4">
+						<div editable="rich">
+							<h4>Features</h4>
+						</div>
+					</div>
+					<div class="lc-block small"> 
+						<div editable="rich" class="footer-links-list">
+							<ul>
+								<li><a href="https://trello.com/home">Trello</a> </li>
+								<li><a href="https://www.atlassian.com/software/jira/work-management">Jira</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
-				<div class="lc-block small"> 
-					<style>
-					.footer-links-list ul { padding-left:0 }
-					.footer-links-list ul li {margin-bottom:15px; list-style-type:none;padding-left:0 }
-					.footer-links-list a {text-decoration:none; color:var(--bs-body-color);}
-					</style>
-					<div editable="rich" class="footer-links-list">
-						<ul>
-							<li><a href="#">Trello</a> </li>
-							<li><a href="#">Jira</a></li>
-						</ul>
+				<!-------------------->
+				<div class="col mb-3">
+					<div class="lc-block mb-4">
+						<div editable="rich">
+							<h4>About us</h4>
+						</div>
+					</div>
+					<div class="lc-block small">
+						<div editable="rich" class="footer-links-list">
+							<ul>
+								<li><a href="/about">Our Story</a> </li>
+								<li><a href="#">Work with us</a></li>
+								<li><a href="#">Blog</a> </li>
+								<li><a href="#">Careers</a> </li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col mb-3">
-				<div class="lc-block mb-4">
-					<div editable="rich">
-						<h4>About us</h4>
+				<!------------------>
+				<div class="col mb-3">
+					<div class="lc-block mb-4">
+						<div editable="rich">
+							<h4>Resources</h4>
+						</div>
 					</div>
-				</div>
-				<div class="lc-block small">
-					<div editable="rich" class="footer-links-list">
-						<ul>
-							<li><a href="#">Our Story</a> </li>
-							<li><a href="#">Work with us</a></li>
-							<li><a href="#">Blog</a> </li>
-							<li><a href="#">Careers</a> </li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="col mb-3">
-				<div class="lc-block mb-4">
-					<div editable="rich">
-						<h4>Resources</h4>
-					</div>
-				</div>
-				<div class="lc-block small">
-					<div editable="rich" class="footer-links-list">
-
-						<ul>
-							<li><a href="{{ url_for('faq_page') }}">FAQ</a></li>
-							<li><a href="#">Contact Us</a></li>
-						</ul>
-
+					<!-------------------->
+					<div class="lc-block small">
+						<div editable="rich" class="footer-links-list">
+							<ul>
+								<li><a href="{{ url_for('faq_page') }}">FAQ</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+</footer>
 <!--End of Footer-->
 {% endblock %}
