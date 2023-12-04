@@ -57,11 +57,11 @@ See the appropriate guide for your environment and operating system.
   >
   `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`
   >
-  Make sure to use version 5 as this is the latest version
+  - Make sure to use version 5 as this is the latest version
 >
   c. Jinja/HTML/CSS Installation
 >
-  There is no installation needed for Jinja, HTML, CSS.
+  - There is no installation needed for Jinja, HTML, CSS.
 >
   HTML and CSS is built into VSCode, while Jinja is Flask's official templating engine.
 
