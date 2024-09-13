@@ -10,6 +10,7 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Project Status](#project-status)
+* [Docker Command References](#docker-commands)
 <!-- * [License](#license) -->
 
 ## General Information
@@ -74,3 +75,11 @@ How does one go about using it?
 
 ## Project Status
 Project is: _in progress_ 
+
+## Docker Commands
+1. Build the Image
+`docker build -t flask-image .`
+2. Run the Container
+`docker run -p 5001:5000 --rm --name flask-container flask-image`
+3. Access via Browser
+`http://localhost:5001`
