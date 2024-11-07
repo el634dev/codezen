@@ -14,8 +14,7 @@
 <!-- * [License](#license) -->
 
 ## General Information
-<image src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Flask/flask1.svg" alt="Flask badge" />
-<image src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Bootstrap/bootstrap1.svg" alt="Bootstrap badge" />
+- This project is intented to be a platform to upload educational materials
 <!-- What problem does it (intend to) solve?-->
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
