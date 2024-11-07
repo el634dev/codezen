@@ -14,14 +14,14 @@
 <!-- * [License](#license) -->
 
 ## General Information
-- Project is built using Jinja2, Bootstrap 5 and Flask
-- The purpose of this project is to practice with Flask
+<image src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Flask/flask1.svg" alt="Flask badge" />
+<image src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Bootstrap/bootstrap1.svg" alt="Bootstrap badge" />
 <!-- What problem does it (intend to) solve?-->
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Important
 -  When trying to host your own project use Python Anywhere or Aptible
--  When using a virtual environment make sure to activate and deactive your environment, creating one helps avoid conflicts with the global interpreter
+-  When using a virtual environment make sure to activate and deactive your environment, creating one helps avoid conflicts with the global interpreter/environment
 
 ## Technologies Used
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -39,7 +39,7 @@ List of features here:
 ## Installation
 See the appropriate guide for your environment and operating system.
 - Flask or older Flask version
-- Other frameworks that are not Flask, Bootstrap, Jinja2
+- Other frameworks that are not Flask, Bootstrap or a templating engine that is different from Jinja
 >
   a. Flask Installation
 >
